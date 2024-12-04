@@ -1,0 +1,128 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+#reading in data
+data <- read.csv("resumes_development.csv", header = TRUE)
+```
+
+```{r}
+#contingency table for female y/n and interview y/n
+res <- table(data$Female, data$Interview)
+dimnames(res) <- list(
+  Gender = c("M", "F"),
+  Interview = c("N", "Y")
+)
+print(res)
+```
+
+```{r}
+#male rate
+totalM <- sum(data$Female == 0)
+yesM <- sum(data$Female == 0 & data$Interview == 1)
+mRate <- yesM / totalM
+print(mRate)
+
+#female rate
+totalF <- sum(data$Female == 1)
+yesF <- sum(data$Female == 1 & data$Interview == 1)
+fRate <- yesF / totalF
+print(fRate)
+```
+
+```{r}
+#not disabled rate
+totalN <- sum(data$Disability == 0)
+yesN <- sum(data$Disability == 0 & data$Interview == 1)
+nRate <- yesN / totalN
+print(nRate)
+
+#disabled rate
+totalD <- sum(data$Disability == 1)
+yesD <- sum(data$Disability == 1 & data$Interview == 1)
+dRate <- yesD / totalD
+print(dRate)
+```
+
+```{r}
+#not disabled, not veteran
+totalN_NV <- sum(data$Disability == 0 & data$Veteran == 0)
+yesN_NV <- sum(data$Disability == 0 & data$Veteran == 0 & data$Interview == 1)
+nRate_NV <- yesN_NV / totalN_NV
+print(paste("Abled Civilian:", nRate_NV * 100, "|", yesN_NV, "out of", totalN_NV))
+
+#disabled, not veteran
+totalD_NV <- sum(data$Disability == 1 & data$Veteran == 0)
+yesD_NV <- sum(data$Disability == 1 & data$Veteran == 0 & data$Interview == 1)
+dRate_NV <- yesD_NV / totalD_NV
+print(paste("Disabled Civilian:", dRate_NV * 100, "|", yesD_NV, "out of", totalD_NV))
+
+
+#not disabled, veteran
+totalN_V <- sum(data$Disability == 0 & data$Veteran == 1)
+yesN_V <- sum(data$Disability == 0 & data$Veteran == 1 & data$Interview == 1)
+nRate_V <- yesN_V / totalN_V
+print(paste("Abled Veteran:", nRate_V * 100, "|", yesN_V, "out of", totalN_V))
+
+#disabled, veteran
+totalD_V <- sum(data$Disability == 1 & data$Veteran == 1)
+yesD_V <- sum(data$Disability == 1 & data$Veteran == 1 & data$Interview == 1)
+dRate_V <- yesD_V / totalD_V
+print(paste("Disabled Veteran:", dRate_V * 100, "|", yesD_V, "out of", totalD_V))
+```
+
+```{r}
+#not female, not veteran
+totalM_NV <- sum(data$Female == 0 & data$Veteran == 0)
+yesM_NV <- sum(data$Female == 0 & data$Veteran == 0 & data$Interview == 1)
+mRate_NV <- yesM_NV / totalM_NV
+print(paste("Male Civilian:", mRate_NV * 100, "|", yesM_NV, "out of", totalM_NV))
+
+#female, not veteran
+totalF_NV <- sum(data$Female == 1 & data$Veteran == 0)
+yesF_NV <- sum(data$Female == 1 & data$Veteran == 0 & data$Interview == 1)
+fRate_NV <- yesF_NV / totalF_NV
+print(paste("Female Civilian:", fRate_NV * 100, "|", yesF_NV, "out of", totalF_NV))
+
+
+#not female, veteran
+totalM_V <- sum(data$Female == 0 & data$Veteran == 1)
+yesM_V <- sum(data$Female == 0 & data$Veteran == 1 & data$Interview == 1)
+mRate_V <- yesM_V / totalM_V
+print(paste("Male Veteran:", mRate_V * 100, "|", yesM_V, "out of", totalM_V))
+
+#female, veteran
+totalF_V <- sum(data$Female == 1 & data$Veteran == 1)
+yesF_V <- sum(data$Female == 1 & data$Veteran == 1 & data$Interview == 1)
+fRate_V <- yesF_V / totalF_V
+print(paste("Female Veteran:", fRate_V * 100, "|", yesF_V, "out of", totalF_V))
+```
+
+```{r}
+#not urm, not veteran
+totalNurm_NV <- sum(data$URM == 0 & data$Veteran == 0)
+yesNurm_NV <- sum(data$URM == 0 & data$Veteran == 0 & data$Interview == 1)
+nUrmRate_NV <- yesNurm_NV / totalNurm_NV
+print(paste("Non-URM Civilian:", nUrmRate_NV * 100, "|", yesNurm_NV, "out of", totalNurm_NV))
+
+#urm, not veteran
+totalUrm_NV <- sum(data$URM == 1 & data$Veteran == 0)
+yesUrm_NV <- sum(data$URM == 1 & data$Veteran == 0 & data$Interview == 1)
+urmRate_NV <- yesUrm_NV / totalUrm_NV
+print(paste("URM Civilian:", urmRate_NV * 100, "|", yesUrm_NV, "out of", totalUrm_NV))
+
+
+#not urm, veteran
+totalNurm_V <- sum(data$URM == 0 & data$Veteran == 1)
+yesNurm_V <- sum(data$URM == 0 & data$Veteran == 1 & data$Interview == 1)
+nUrmRate_V <- yesNurm_V / totalNurm_V
+print(paste("Non-URM Veteran:", nUrmRate_V * 100, "|", yesNurm_V, "out of", totalNurm_V))
+
+#urm, veteran
+totalUrm_V <- sum(data$URM == 1 & data$Veteran == 1)
+yesUrm_V <- sum(data$URM == 1 & data$Veteran == 1 & data$Interview == 1)
+urmRate_V <- yesUrm_V / totalUrm_V
+print(paste("URM Veteran:", urmRate_V * 100, "|", yesUrm_V, "out of", totalUrm_V))
+```
