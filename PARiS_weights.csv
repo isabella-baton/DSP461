@@ -1,0 +1,219 @@
+,Features,Weights
+22,Coaching,0.48
+33,Decision Making,0.48
+85,Interpersonal Skills,0.48
+37,Digital Marketing,0.48
+31,Data Analysis,0.48
+207,Volunteering,0.48
+134,Oracle Database,0.48
+141,Presentations,0.48
+140,Performance Tuning,0.48
+114,Logistics Management,0.48
+13,Budgeting,0.4735492902095792
+119,Military Weapons,0.4295018248768322
+34,Department of Defense,0.38101956425304095
+46,Energy,0.3775533639175774
+146,Public Policy,0.3697040127712955
+10,Baseball,0.365633012514451
+11,Basketball,0.3580576566288088
+71,Healthcare,0.32276147655488857
+80,Information Technology,0.31006020030376064
+118,Military Aviation,0.30624433952483
+170,Sales Management,0.29941332996175574
+73,Heavy Equipment,0.2850995558266019
+63,Government Agencies,0.2743079852647865
+78,Hospitals,0.26584315541071024
+57,Football,0.25567743080247496
+172,Soccer,0.2523034610062654
+121,Network Administration,0.2507478892389876
+39,Diving,0.20802345302347838
+128,Nonprofit Organizations,0.17169852532694427
+32,Databases,0.15718143196300735
+180,Swimming,0.10941377203434093
+28,Customer Relationship Management,0.09155365372750232
+129,Nutrition,0.08896181085698243
+90,Java,0.07916637502748886
+148,Public Speaking,0.07000549390905018
+2,Agile Methodologies,0.05888664109826465
+206,Volunteer Management,-0.018228892958108627
+88,Invoicing,-0.043046207600462114
+4,Art,-0.04651724535873543
+133,Operations Management,-0.09391639538238057
+106,Leadership,-0.0942150624172622
+54,Financial Reporting,-0.10335812451796791
+175,Software Documentation,-0.10358497394246428
+150,Qualitative Research,-0.11016535183398836
+167,Retail,-0.11126307671868454
+104,Knowledge Sharing,-0.11595525168626052
+165,Research,-0.12479026745739763
+186,Telecommunications,-0.12922720176038247
+154,Quantitative Research,-0.1380442660875608
+158,Quotations,-0.13975699351484214
+155,Query Writing,-0.13977562269943322
+56,Food and Beverage,-0.14543877588224574
+115,Marine Corps,-0.1480927478879003
+188,Time Management,-0.15144567805950654
+197,User Interface Design,-0.15474215345888548
+111,Linux,-0.15599298551468654
+75,Higher Education,-0.17439563753003134
+205,Volleyball,-0.177665963771074
+105,Laboratory Skills,-0.1951272353961339
+176,Staff Development,-0.205672037077328
+15,Business Intelligence,-0.2165143993179767
+152,Quality Improvement,-0.21973158198493806
+87,Investments,-0.22262369018330072
+101,Kindergarten,-0.22314331882035926
+189,Training,-0.23607391839426742
+202,Video Editing,-0.24309024927154296
+110,Legal Writing,-0.2434696561789908
+103,Knowledge Management,-0.24784707440188086
+113,Local Marketing,-0.25622045381157077
+59,Fundraising,-0.2577210949773023
+23,Communication,-0.2578122648843642
+93,Job Scanning,-0.26474953731011314
+161,Records,-0.2688367101515732
+117,Medical Compliance,-0.2712571297110838
+177,Strategic Planning,-0.27233806107929964
+185,Teamwork,-0.2737176175423918
+49,Event Planning,-0.2797083209233223
+95,Journalism,-0.2825209141617421
+19,Business Services,-0.2866278790859458
+48,Entrepreneurship,-0.2897092801687983
+187,Testing,-0.2935977573175368
+83,Integration,-0.2955990509556361
+147,Public Relations,-0.2991741563082233
+36,Development Tools,-0.3050988301642559
+52,Finance,-0.3099061312622314
+198,Validation,-0.31934412070181456
+92,Job Description Development,-0.32431562767366445
+55,Financial Risk,-0.324547097069303
+142,Pricing Strategy,-0.3247149693808015
+77,Hospitality Industry,-0.32568731781916954
+182,Team Building,-0.327319428395696
+135,Order Fulfillment,-0.3274092334610548
+26,Contract Negotiation,-0.3274504273012503
+98,Kanban,-0.32802868963729626
+107,Leadership Development,-0.33262220943082454
+44,Email,-0.3339738223857777
+72,Healthcare Management,-0.3396208952693635
+64,Grant Writing,-0.34013568609522377
+217,Writing,-0.3592671268486471
+38,Digital Media,-0.3667979106030139
+190,Troubleshooting,-0.3679536010152207
+125,New Business Opportunities,-0.3704788109567437
+204,Visual Merchandising,-0.3732643586720566
+143,Problem Solving,-0.37475272407502924
+21,Change Management,-0.3818983613119411
+112,Litigation,-0.38807575532961297
+35,Design,-0.38866349052105675
+159,Range,-0.3888294897365931
+208,Water Resource Management,-0.3922536852741163
+132,Operating Systems,-0.39785380616752025
+89,JQuery,-0.40426129558215085
+144,Program Management,-0.40521733561004636
+3,Analytical Skills,-0.4067111714681495
+160,Real Estate,-0.41266999425255285
+178,Strategy,-0.43235132077248023
+184,Team Management,-0.4376505198228975
+25,Construction,-0.4379500578436766
+201,Video,-0.4439203391422065
+193,University Teaching,-0.4481911760016663
+50,Facilitation,-0.4505866220970807
+199,Vendor Management,-0.4636401431617538
+99,Key Account Development,-0.47296273761613533
+174,Software,-0.47366894789952985
+53,Financial Analysis,-0.4740063234047877
+68,Gymnastics,-0.4743351911947396
+196,User Experience,-0.47562713822080327
+42,Editing,-0.4775283618921511
+131,Online Advertising,-0.47783632898149037
+200,Vendors,-0.48484804426830763
+136,Organizational Development,-0.4873950376620645
+153,Quality System,-0.49088097333798636
+8,Automation,-0.49143015987683364
+81,Insurance,-0.49206633964157714
+1,Adobe Photoshop,-0.49729356365916927
+0,Adobe Illustrator,-0.5
+7,AutoCAD,-0.5
+6,Auditing,-0.5
+5,Art Direction,-0.5
+41,Ecommerce,-0.5
+40,Drawing,-0.5
+29,Customer Satisfaction,-0.5
+30,Customer Service,-0.5
+47,Enterprise Software,-0.5
+45,Employee Benefits Design,-0.5
+43,Electronics,-0.5
+27,Contractual Agreements,-0.5
+9,Automotive,-0.5
+16,Business Planning,-0.5
+14,Business Analysis,-0.5
+12,Branding,-0.5
+17,Business Process,-0.5
+18,Business Process Improvement,-0.5
+20,Business Strategy,-0.5
+24,Company Research,-0.5
+86,Interviewing,-0.5
+84,Internal Audit,-0.5
+82,Integrated Marketing,-0.5
+79,Information Systems,-0.5
+76,History,-0.5
+74,Helping Clients Succeed,-0.5
+66,Graphics,-0.5
+58,Forecasting,-0.5
+65,Graphic Design,-0.5
+62,Golf,-0.5
+60,Gas,-0.5
+61,General Ledger,-0.5
+69,HTML,-0.5
+67,Grocery,-0.5
+70,HTML5,-0.5
+51,Facility Management,-0.5
+102,Knowledge Base,-0.5
+100,Key Performance Indicators,-0.5
+96,Journals,-0.5
+97,K12 Education,-0.5
+91,Javascript,-0.5
+94,Joint Ventures,-0.5
+130,Office Administration,-0.5
+137,Organizational Structure,-0.5
+122,Network Attached Storage,-0.5
+126,New Hires,-0.5
+123,Network Communications,-0.5
+124,Network Systems,-0.5
+108,Lean Manufacturing,-0.5
+109,Legal Issues,-0.5
+116,Mechanical Engineering,-0.5
+120,Negotiation,-0.5
+151,Quality Auditing,-0.5
+149,Qualifying Prospects,-0.5
+138,Outsourcing,-0.5
+145,Project Planning,-0.5
+139,Partnerships,-0.5
+127,Newsletters,-0.5
+173,Social Media,-0.5
+171,Schedules,-0.5
+156,Queues,-0.5
+157,QuickBooks,-0.5
+163,Regulations,-0.5
+162,Recruiting,-0.5
+164,Requirements Analysis,-0.5
+166,Residential Homes,-0.5
+168,Reviews,-0.5
+169,SQL,-0.5
+183,Team Leadership,-0.5
+181,Teaching,-0.5
+179,Supervisory Skills,-0.5
+192,Unified Modeling Language,-0.5
+195,User Acceptance Testing,-0.5
+194,Unix,-0.5
+191,Underwriting,-0.5
+203,Video Production,-0.5
+209,Web Applications,-0.5
+210,Web Design,-0.5
+212,Windows,-0.5
+211,Web Development,-0.5
+213,Windows Server,-0.5
+214,Wireless Technologies,-0.5
+215,WordPress,-0.5
+216,Workshops,-0.5
